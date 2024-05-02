@@ -31,3 +31,32 @@ pug -w ./ -o ./html -P
     "pug": "pug -w ./ -o ./html -P"
   },
 ```
+
+---
+
+# <img align="center" src="https://github.com/ha7darov/ha7darov/raw/main/FremWork%20&%20Library/sass.webp" alt="SASS" title="SASS" width="60"> SASS
+
+
+## SASS Install NPM 
+```bash
+npm i sass
+```
+
+## Watch SASS File, `Converts SASS to CSS` 
+```bash
+sass -w sass/
+```
+
+### This code is hard to remember, so I recommend adding the **`"sass -w sass/"`** command between the script tag in the `package.json` file.
+
+### Script command to shorten, in such a way
+### 
+```json
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w sass/"
+  },
+```
+
+---
+
