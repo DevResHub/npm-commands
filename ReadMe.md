@@ -8,7 +8,7 @@
 ## You must have `NodeJs` installed for these commands to work
 ---
 
-# <img align="center" src="https://raw.githubusercontent.com/ha7darov/ha7darov/main/FremWork%20%26%20Library/Pug-Dark.svg" alt="PUG" title="PUG" width="60"> PUG
+# <img align="center" src="https://raw.githubusercontent.com/jasurhaydarovcode/jasurhaydarovcode/main/FremWork%20%26%20Library/Pug-Dark.svg" alt="PUG" title="PUG" width="60"> PUG
 
 
 ## PUG Install NPM 
