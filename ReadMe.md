@@ -34,7 +34,7 @@ pug -w ./ -o ./html -P
 
 ---
 
-# <img align="center" src="https://github.com/ha7darov/ha7darov/raw/main/FremWork%20&%20Library/sass.webp" alt="SASS" title="SASS" width="60"> SASS
+# <img align="center" src="https://github.com/jasurhaydarovcode/jasurhaydarovcode/raw/main/FremWork%20&%20Library/sass.webp" alt="SASS" title="SASS" width="60"> SASS
 
 
 ## SASS Install NPM 
