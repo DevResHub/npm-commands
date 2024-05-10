@@ -84,3 +84,26 @@ npm i bootstrap-icons
 ```
 
 ---
+
+# <img align="center" src="./.github/percel.png" alt="Percel" title="PERCEL" width="60"> PERCEL
+
+
+## Percel Install NPM 
+
+### Parcel recall
+
+```bash
+npm install --save-dev parcel
+```
+
+### run
+```bash
+npx parcel ./index.html
+```
+
+### Watch
+```bash
+http://localhost:1234/
+```
+
+---
