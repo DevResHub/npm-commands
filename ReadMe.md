@@ -13,7 +13,7 @@
 
 ## PUG Install NPM 
 ```bash
-npm install pug
+npm i pug
 ```
 
 ## Watch PUG File, `Converts PUG to HTML` 
@@ -60,3 +60,27 @@ sass -w sass/
 
 ---
 
+# <img align="center" src="https://github.com/jasurhaydarovcode/jasurhaydarovcode/raw/main/FremWork%20&%20Library/bootstrap.svg" alt="SASS" title="SASS" width="60"> BOOTSTRAP
+
+
+## Bootstrap Install NPM 
+#### If you simply type npm i bootstrap you will download the latest version of bootstrap
+```bash
+npm i bootstrap
+```
+
+### If you want to download the version of bootstrap you want, you can see in the example below, here is the code for bootstrap version 5.3.3
+```bash
+npm install bootstrap@5.3.3
+```
+# Bootstrap Icons via npm
+## Using bootstrap icons using npm
+```bash
+npm i bootstrap-icons
+```
+## Binding bootstrap icons to html
+```html
+<link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+```
+
+---
