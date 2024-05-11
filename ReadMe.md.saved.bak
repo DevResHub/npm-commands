@@ -36,17 +36,13 @@ pug -w ./ -o ./html -P
     "pug": "pug -w ./ -o ./html -P"
   },
 ```
-### and then
-```bash
-npm run pug
-```
 
 ---
 
 # <img align="center" src="https://github.com/jasurhaydarovcode/jasurhaydarovcode/raw/main/FremWork%20&%20Library/sass.webp" alt="SASS" title="SASS" width="60"> SASS
 
 
-## SASS, SCSS Install NPM 
+## SASS Install NPM 
 ```bash
 npm i sass
 ```
@@ -65,11 +61,6 @@ sass -w sass/
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass -w sass/"
   },
-```
-
-### and then
-```bash
-npm run sass
 ```
 
 ---
@@ -131,12 +122,6 @@ http://localhost:1234/
   },
 ```
 
-### and then 
-
-```bash
-npm run dev
-```
-
 ---
 
 # <img align="center" src="./.github/minifycss.png" alt="Minify CSS" title="minify css" width="80"> MINIFY CSS
@@ -192,12 +177,6 @@ css-minify --dir sourcedir --output distdir
     "test": "echo \"Error: no test specified\" && exit 1",
     "min": "css-minify -f ./css/style.css"
   },
-```
-
-### end then
-
-```bash
-npm run min
 ```
 
 ---

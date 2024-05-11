@@ -46,7 +46,7 @@ npm run pug
 # <img align="center" src="https://github.com/jasurhaydarovcode/jasurhaydarovcode/raw/main/FremWork%20&%20Library/sass.webp" alt="SASS" title="SASS" width="60"> SASS
 
 
-## SASS, SCSS Install NPM 
+## SASS,SCSS Install NPM 
 ```bash
 npm i sass
 ```
