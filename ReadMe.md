@@ -107,3 +107,49 @@ http://localhost:1234/
 ```
 
 ---
+
+# <img align="center" src="./.github/minifycss.png" alt="Minify CSS" title="minify css" width="80"> MINIFY CSS
+
+
+## MINIFY Install NPM 
+
+### install
+
+```bash
+npm install --save-dev parcel
+```
+<!--  -->
+
+```bash
+npm install css-minify -g
+```
+
+<!--  -->
+
+### next watch
+
+### Be sure that filename must be ended with ".css"
+
+```bash
+css-minify -f filename
+```
+
+### or
+
+```bash
+css-minify --file filename
+```
+
+# ||
+
+```bash
+css-minify -d sourcedir -o distdir
+```
+
+### or
+
+```bash
+css-minify --dir sourcedir --output distdir
+```
+
+---
