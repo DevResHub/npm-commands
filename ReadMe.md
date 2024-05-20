@@ -40,6 +40,8 @@ pug -w ./ -o ./html -P
 npm run pug
 ```
 
+### attack `ctrl+c`
+
 ---
 
 # <img align="center" src="https://github.com/jasurhaydarovcode/jasurhaydarovcode/raw/main/FremWork%20&%20Library/sass.webp" alt="SASS" title="SASS" width="60"> SASS
@@ -70,6 +72,8 @@ sass -w sass/
 ```bash
 npm run sass
 ```
+
+### attack `ctrl+c`
 
 ---
 
@@ -198,5 +202,70 @@ css-minify --dir sourcedir --output distdir
 ```bash
 npm run min
 ```
+
+---
+
+# <img align="center" src="https://raw.githubusercontent.com/jasurhaydarovcode/jasurhaydarovcode/main/FremWork%20%26%20Library/tailwind.svg" alt="Tailwind" title="TAILWIND" width="60"> TAILWIND ~
+
+
+## TAILWIND Install NPM 
+```bash
+npm install tailwindcss
+```
+
+### init
+```bash
+npx tailwindcss init
+```
+
+#### Add the paths to all of your template files in your `tailwind.config.js` file.
+```json
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+#### Add the Tailwind directives to your CSS, Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+### add this code ./src/`input.css`👇👇👇
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+
+## Start the Tailwind CLI build process
+#### Watch Tailwind, `Converts TAILWIND to CSS` 
+```bash
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+```
+
+### This code is hard to remember, so I recommend adding the **`"twind": "npx tailwindcss ...  --watch"`** command between the script tag in the `package.json` file.
+
+### Script command to shorten, in such a way
+### 
+```json
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "twind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+```
+
+### Start using Tailwind in your HTML
+```html
+<link href="./src/output.css" rel="stylesheet">
+```
+
+### and then
+```bash
+npm run twind
+```
+
+### attack `ctrl+c`
 
 ---
