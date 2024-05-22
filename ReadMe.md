@@ -4,6 +4,8 @@
 
 <h1 align="center">Hi, In this Repo you can use npm package codes</h1>
 
+### [For Suggestions ➡️ jasurhaydarovcode@gmail.com](https://mail.google.com/mail/u/0/#search/jasurhaydarovcode%40gmail.com)
+
 ---
 
 ## You must have `NodeJs` installed for these commands to work
@@ -123,22 +125,24 @@ npx parcel ./index.html
 http://localhost:1234/
 ```
 
-### This code is hard to remember, so I recommend adding the **`"dev": "npx parcel ./index.html"`** command between the script tag in the `package.json` file.
+### This code is hard to remember, so I recommend adding the **`"prc": "npx parcel ./index.html"`** command between the script tag in the `package.json` file.
 
 ### Script command to shorten, in such a way
 ### 
 ```json
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx parcel ./index.html"
+    "prc": "npx parcel ./index.html"
   },
 ```
 
 ### and then 
 
 ```bash
-npm run dev
+npm run prc
 ```
+
+### attack `ctrl+c`
 
 ---
 
@@ -269,3 +273,44 @@ npm run twind
 ### attack `ctrl+c`
 
 ---
+
+# <img align="center" src="./.github/goLive.Default" alt="Percel" title="PERCEL" width="60"> GO LIVE
+
+
+## GO LIVE via NPM Install 
+
+```bash
+npm install -g live-server
+```
+
+### run
+```bash
+live-server
+```
+
+### `live-server` you can add this code to the command, it is more convenient for you
+
+### Script command to shorten, in such a way
+### 
+```json
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server"
+  },
+```
+
+### and then 
+
+```bash
+npm run live
+```
+
+### attack `ctrl+c`
+
+---
+
+<div align=right>
+
+### [Author of this Repo](https://github.com/jasurhaydarovcode) 
+
+</div>
