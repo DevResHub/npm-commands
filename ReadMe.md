@@ -217,9 +217,16 @@ npm run min
 npm install tailwindcss
 ```
 
-### init
+### init 
 ```bash
 npx tailwindcss init
+```
+
+## || or
+
+### init full config
+```bash
+npx tailwindcss init --full
 ```
 
 #### Add the paths to all of your template files in your `tailwind.config.js` file.
