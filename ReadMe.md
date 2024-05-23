@@ -33,7 +33,6 @@ pug -w ./ -o ./html -P
 ### 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "pug": "pug -w ./ -o ./html -P"
   },
 ```
@@ -65,7 +64,6 @@ sass -w sass/
 ### 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass -w sass/"
   },
 ```
@@ -131,7 +129,6 @@ http://localhost:1234/
 ### 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prc": "npx parcel ./index.html"
   },
 ```
@@ -196,7 +193,6 @@ css-minify --dir sourcedir --output distdir
 ### 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "min": "css-minify -f ./css/style.css"
   },
 ```
@@ -262,7 +258,6 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ### 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "twind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
 ```
@@ -301,8 +296,7 @@ live-server
 ### 
 ```json
  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "live": "live-server"
+    "go": "live-server"
   },
 ```
 
