@@ -22,6 +22,12 @@
 npm i pug
 ```
 
+#### or 
+
+```bash
+npm install -g pug-cli
+```
+
 ## Watch PUG File, `Converts PUG to HTML` 
 ```bash
 pug -w ./ -o ./html -P
