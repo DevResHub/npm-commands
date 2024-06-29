@@ -59,9 +59,16 @@ npm run pug
 npm i sass
 ```
 
+## Folders Create
+```bash
+mkdir scss
+mkdir css
+```
+
+
 ## Watch SASS File, `Converts SASS to CSS` 
 ```bash
-sass -w sass/
+sass --watch scss:css
 ```
 
 ### This code is hard to remember, so I recommend adding the **`"sass -w sass/"`** command between the script tag in the `package.json` file.
@@ -70,7 +77,7 @@ sass -w sass/
 ### 
 ```json
  "scripts": {
-    "sass": "sass -w sass/"
+    "sass": "sass --watch scss:css"
   },
 ```
 
