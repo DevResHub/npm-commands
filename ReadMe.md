@@ -118,7 +118,7 @@ npm i bootstrap-icons
 # <img align="center" src="./.github/percel.png" alt="Percel" title="PERCEL" width="60"> PERCEL
 
 
-## Percel Install NPM 
+## Parcel Install NPM 
 
 ### Parcel recall
 
